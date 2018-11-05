@@ -1,0 +1,53 @@
+.sec1{
+  height: 800px;
+  background-color: #694D75;
+
+
+}
+.sec2{
+  height: 800px;
+  background-color: #8499B1;
+}
+.sec3{
+  height: 800px;
+  background-color: #094D92;
+
+}
+.sec4{
+  height: 800px;
+  background-color: #4DA1A9;
+}
+#img0{
+  width: 80%;
+
+}
+#img1{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+#img2{
+  width: 80%;
+
+}
+#img3{
+  width: 80%;
+
+}
+.hidden{
+  opacity: 1;
+}
+.adjust{
+  text-align: right;
+}
+.show{
+  animation: inv;
+}
+/* @KEYFRAMES */
+@keyframes inv {
+  0% {opacity: 0}
+  100% {opacity: 1}
+
+}
