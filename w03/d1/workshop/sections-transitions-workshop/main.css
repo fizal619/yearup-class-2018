@@ -22,7 +22,7 @@
 
 }
 #img1{
-  width: 80%;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -37,16 +37,16 @@
 
 }
 .hidden{
-  opacity: 1;
+  opacity: 0;
 }
 .adjust{
   text-align: right;
 }
 .show{
-  animation: inv;
+  animation: move 4s forwards;
 }
 /* @KEYFRAMES */
-@keyframes inv {
+@keyframes move {
   0% {opacity: 0}
   100% {opacity: 1}
 
