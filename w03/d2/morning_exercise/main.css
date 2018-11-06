@@ -1,0 +1,27 @@
+.move:hover {
+  animation: move 2s infinite;
+
+}
+
+.slideInUp{
+  animation-duration: 3s;
+  animation-iteration-count: forwards;
+}
+.headShake{
+  animation: 3s;
+  animation-iteration-count: forwards;
+  animation-delay: 3s;
+}
+.bounceOut{
+  animation: 7s;
+  animation-iteration-count: 2;
+  animation-delay: 6s;
+}
+
+/*  KEYFRAMES  */
+@keyframes move {
+    0 {transform: rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg);}
+    100% {transform: rotateX(360deg)
+        rotateY(360deg) rotateZ(360deg);}
+}
