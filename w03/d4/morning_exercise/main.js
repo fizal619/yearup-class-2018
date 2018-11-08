@@ -7,12 +7,15 @@ const quotes = [
   '"The most important parts,are the ones that are unseen. The wings don’t make you fly, and the crown don’t make you king." - Lupe',
   '"I sell ice in the winter, I sell fire in hell, I am a hustler baby, I’ll sell water to a well" - Jay Z'
 ];
+let answer = document.getElementById('quote');
 
 function randomQuote(){
-
+  let randomSum = Math.floor(Math.random() * quotes.length);
+  answer.innerHTML = quotes[randomSum];
 }
 
 let button = document.querySelector('button');
+
 button.addEventListener('click', randomQuote);
 
-// randomQuote();
+ randomQuote();
