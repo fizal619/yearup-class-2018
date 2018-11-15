@@ -1,0 +1,19 @@
+body{
+  background-color: #001941;
+}
+
+header{
+  background-color: white;
+  border: 10px solid #DD013E;
+  color: #DD013E;
+  padding: 20px;
+  margin: 0px;
+}
+
+div{
+  display: inline-block;
+}
+
+img{
+  width: 200px;
+}
