@@ -1,0 +1,47 @@
+@media (max-width: 767.98px) { ... }
+
+header {
+  width: 1500px;
+  height: 70px;
+  position: fixed;
+  background-color:  #EB5757;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+html {
+  background-color:  #303030
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  float: center;
+}
+
+.card-body{
+  background-color: white;
+}
+.card{
+  background-color: white;
+  display: inline-block;
+  width: 250px;
+  margin: 2px;
+}
+p{
+  font-family:
+}
+
+.row{
+  display: inline-block;
+left: 100px;
+}
+
+
+ .col{
+   display: inline-block;
+ }
+ .container{
+   float: left;
+ }
