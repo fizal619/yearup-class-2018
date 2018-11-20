@@ -1,0 +1,38 @@
+header{
+  background-color:#EB5757;
+  font-family: "Open Sans";
+  color: white;
+}
+
+body{
+  font-family: "Roboto" , sans-serif;
+  background-color: #303030;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.card{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.row{
+  padding: 5px;
+}
+
+img{
+  width:100%
+
+}
+
+h5{
+  padding: 10px;
+}
+
+p{
+  padding: 10px;
+  font-size: 12px;
+}
