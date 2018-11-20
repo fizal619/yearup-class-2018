@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    background-color: #EB5757;
+    background-size:cover;
+    color:white;
+}
+
+body{
+  background-color: #303030;
+}
+
+img{
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width:33vh;
+  height:33vh;
+  padding-bottom: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: white;
+    color:black;
+    width: 30vh;
+    margin-left: 59px;
+    margin-right: 50px;
+
+}
