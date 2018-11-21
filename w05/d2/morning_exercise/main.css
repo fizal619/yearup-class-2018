@@ -14,25 +14,30 @@ html {
   background-color:  #303030
 }
 
-img {
-  width: 200px;
-  height: 200px;
+/* .card{
+ background-color: white;
+   display: inline-block;
+  width: 250px;
+  margin: 2px;
+   */
+/* img { width: 100%;
+  height: 150px;
   float: center;
-}
-
+} */
+/*
 .card-body{
   background-color: white;
 }
 .card{
-  background-color: white;
-  display: inline-block;
+  /* background-color: white; */
+  /* display: inline-block;
   width: 250px;
-  margin: 2px;
-}
+  margin: 2px; */
+/* }
 p{
   font-family:
-}
-
+} */ */
+/*
 .row{
   display: inline-block;
 left: 100px;
@@ -42,6 +47,6 @@ left: 100px;
  .col{
    display: inline-block;
  }
- .container{
+ /* .container{
    float: left;
- }
+ } */
