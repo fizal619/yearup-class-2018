@@ -1,0 +1,32 @@
+body{
+  background-color: grey;
+}
+button{
+  height: 40px;
+  width: 80px;
+  margin-left: 400px;
+  margin-top: 0px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  border-image-outset: 8px;
+}
+
+.box{
+  height:110px;
+  width: 150px;
+  margin-left: 165px;
+  margin-top: 130px;
+
+}
+.TV{
+  background-image: url(image2.jpg);
+  height: 400px;
+  width: 600px;
+}
+.item{
+  margin-left: 200px;
+  margin-top: 100px;
+}
