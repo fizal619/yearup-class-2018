@@ -1,0 +1,12 @@
+img {
+  width: 200px;
+}
+
+#p1, #p3 {
+  text-align: right;
+  margin-left: 700px;
+}
+
+body {
+  display: inline-block;
+}
