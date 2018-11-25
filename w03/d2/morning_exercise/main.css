@@ -1,0 +1,12 @@
+.type {
+  animation-name: bounceIn;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.stuff{
+  animation-name:shake;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
