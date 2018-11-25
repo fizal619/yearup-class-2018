@@ -1,0 +1,12 @@
+h1 {
+text-align: center;
+
+}
+.mid{
+align-items: center;
+margin-top: 10px;
+}
+.slik{
+display: inline-block;
+  float: left;
+}
