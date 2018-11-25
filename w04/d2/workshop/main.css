@@ -1,0 +1,13 @@
+body{
+  background-color: blue;
+}
+
+h1{
+  font-size: 40;
+}
+.my_redbull_product{
+  margin:auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
