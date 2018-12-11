@@ -5,7 +5,8 @@ require('geocoder')
 
 register Sinatra::Reloader
 
-ForecastIO.api_key = 'a65700d3d69f77123ba1cbece8365328'
+ForecastIO.api_key = ENV['FORECAST']
+
 
 get '/' do
   puts params
