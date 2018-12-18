@@ -6,9 +6,14 @@ require 'active_record'
 
 #require classes
 # require './models/cake.rb'
+require './models/car.rb'
+require './models/customer.rb'
+require './models/sale.rb'
+require './models/user.rb'
 
 # Use `binding.pry` anywhere in this script for easy debugging
 require 'pry'
+require 'csv'
 
 # Connect to a sqlite3 database
 # If you feel like you need to reset it, simply delete the file sqlite makes
@@ -17,4 +22,8 @@ ActiveRecord::Base.establish_connection(
   database: 'db/carson.db'
 )
 
+
+
+
 binding.pry
+

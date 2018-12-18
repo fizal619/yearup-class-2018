@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 3) do
+ActiveRecord::Schema.define(version: 5) do
 
   create_table "cars", force: :cascade do |t|
     t.string "make"
@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "year"
     t.integer "cost_price"
     t.integer "sale_markup"
-    t.integer "transaction_id"
+    t.integer "sale_id"
   end
 
   create_table "customers", force: :cascade do |t|
@@ -27,10 +27,18 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "email"
     t.string "gender"
     t.string "phone_number"
-    t.integer "transaction_id"
+    t.integer "sale_id"
+  end
+
+  create_table "sales", force: :cascade do |t|
   end
 
   create_table "transactions", force: :cascade do |t|
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "email"
+    t.string "password"
   end
 
 end

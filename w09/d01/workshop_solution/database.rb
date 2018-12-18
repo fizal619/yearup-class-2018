@@ -22,9 +22,7 @@ ActiveRecord::Base.establish_connection(
 )
 
 
-CSV.foreach('CAR_DATA.csv', headers: true) do |row|
-
-end
 
 
 binding.pry
+
