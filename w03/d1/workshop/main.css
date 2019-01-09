@@ -1,0 +1,30 @@
+img {
+  width: 20%;
+  }
+
+#pic {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  background-color: darkseagreen;
+}
+
+
+#txt {
+ width: 50%;
+ text-align: right;
+ display: inline-block;
+  float: right;
+  background-color: darkseagreen;
+  height: 800px
+}
+
+#txt2 {
+  width: 50%;
+  text-align: right;
+ display: inline-block;
+  float: right;
+  background-color: orange;
+  height: 800px;
+
+}
