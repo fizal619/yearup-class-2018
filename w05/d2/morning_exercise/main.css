@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background:  #303030;
+}
+#header{
+  /* width: auto; */
+  text-align: center;
+  background:#EB5757;
+  color: white;
+  margin-top:0;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width: 100%
+
+
+}
+.center-block{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5px;
+}
+
+p{
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  }
+
+  h4{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+  }
+
+.row{
+    margin: 0;
+}
+.col-md-4{
+
+}
+.card{
+  width: 200px;
+  height: auto;
+  background-color: white;
+
+}
