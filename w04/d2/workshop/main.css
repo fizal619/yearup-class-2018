@@ -1,0 +1,13 @@
+img{
+  width:120px;
+  height:150px;
+  display: inline-block;
+  position: relative;
+}
+h3{
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+}
