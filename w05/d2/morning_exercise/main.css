@@ -1,0 +1,31 @@
+
+body{
+  background: #303030;
+  color: white;
+}
+h2{
+  border: solid #EB5757 1px;
+  text-align: center;
+  background-color: #EB5757;
+  color: #FFF;
+  padding: 3%
+
+}
+
+.box{
+  border: solid white 2px;
+  background-color: #FFF
+}
+
+.blocc {
+  display: inline;
+  width: 100%;
+  padding-top: 2%;
+}
+.blocc1{
+  display: inline;
+  width: 100%;
+}
+.row{
+  padding-bottom: 10%;
+}
